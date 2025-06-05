@@ -11,12 +11,12 @@ const layout = ({children}:{children: React.ReactNode}) => {
     </div>
     <div className="flex-grow p-6 md:overflow-y-auto md:p-12">
       {children}
-      {/* <Image
+      <Image
       src={"/hero-desktop.png"}
       width={1000}
       height={560}
       alt="Ss of mobile "
-      /> */}
+      />
      
     </div>
       
