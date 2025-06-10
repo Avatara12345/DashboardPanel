@@ -1,4 +1,4 @@
-import Image from "next/image"
+// import Image from "next/image"
 import SideNav from "../ui/dashboard/sidenav"
 
 const layout = ({children}:{children: React.ReactNode}) => {

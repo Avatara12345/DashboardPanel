@@ -1,8 +1,7 @@
 import { lusitana } from "../../ui/fonts";
-import { fetchCardData, fetchRevenue } from "../../lib/data";
+import { fetchCardData, } from "../../lib/data";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
-import { Card } from "@/app/ui/dashboard/cards";
 import { Suspense } from "react";
 import {
   RevenueChartSkeleton,
@@ -12,13 +11,13 @@ import {
 import CardWrapper from '@/app/ui/dashboard/cards';
 
 const DashboardPage = async () => {
-  const {
-    numberOfInvoices,
-    numberOfCustomers,
-    totalPaidInvoices,
-    totalPendingInvoices,
+  // const {
+  //   numberOfInvoices,
+  //   numberOfCustomers,
+  //   totalPaidInvoices,
+  //   totalPendingInvoices,
     
-  } = await fetchCardData();
+  // } = await fetchCardData();
   return (
     <div>
       <main>
